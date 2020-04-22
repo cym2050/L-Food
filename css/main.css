@@ -9,7 +9,7 @@ body {
 }
 
 .hero-bg {
-    background: #307D99 url('../images/back.jpg');
+    background: #307D99 url('../images/bg.jpg');
     background-position: 12% 83%;
     color: white;
     text-align: center;
@@ -197,6 +197,26 @@ p {
     }
     .hero-bg p {
         margin-bottom: 0;
+    }
+
+    section.authentic {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: "bowl content";
+    }
+
+    .right-col {
+        grid-area: content;
+        padding: 0 10%;
+        text-align: left;
+    }
+
+    img {
+        grid-area: bowl;
+    }
+
+    h2 {
+        margin: 0;
     }
 
 }
