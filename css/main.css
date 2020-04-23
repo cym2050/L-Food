@@ -64,9 +64,16 @@ h1 span::before {
 .form-container {
     background-color: white;
     margin: 2em -1em 0;
-    padding: 2em;
+    padding: 1em;
     border: 1em;
-    
+}
+
+.form-container p {
+    color: gray;
+    margin-top: .3em;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    font-size: 0.9em;
 }
 
 label {
@@ -88,13 +95,7 @@ input[type=text] {
     cursor: pointer;
 }
 
-.form-container p {
-    color: gray;
-    margin-top: .3em;
-    margin-bottom: 1.5em;
-    font-weight: normal;
-    font-size: 0.9em;
-}
+
 
 input[type=button] {
     background-color: #f89104;
@@ -151,28 +152,24 @@ p {
     section {
         margin: 0 4em;
     }
-
     .form-container {
         margin: 2em -4em 0;
     }
 }
 
-@media (min-width : 930px) {
+@media (min-width : 800px) {
     .hero-bg {
         text-align: left;
     }
-
     .hero-bg p {
         margin: 0 0 3em;
     }
-
     .hero-bg section {
         width: 65%;
     }
-
     .form-container {
         margin: 2em 0 0;
-        padding: 2em;
+        padding: 1em;
         border-radius: .5em;
         box-shadow: 10px 10px 10px rgb(0, 0, 0.3);
     }
